@@ -29,10 +29,12 @@ def f1():
     x = 88
     def f2():
         print(x)
-    return f2
+    return f2 #f2() hota th yhio execute hota but ab func defination return krdi h 
 myResult = f1()
 myResult()
 
+
+# closer also called factory function
 
 def chaicoder(num):
     def actual(x):
